@@ -1,0 +1,13 @@
+.spreadsheet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 80%;
+    background: rgb(73, 73, 202);
+
+    &--wrapper {
+
+        width: 80%;
+    }
+}
