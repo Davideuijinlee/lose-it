@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%; 
+    overflow-x: hidden;
+}
+body {
+    background: $color-body;
+    box-sizing: border-box;
+    padding: 0;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+#root {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3rem;
+}
+p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    }
+a {
+text-decoration: none;
+outline: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
